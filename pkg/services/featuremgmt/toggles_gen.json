@@ -238,15 +238,18 @@
     {
       "metadata": {
         "name": "alertingConversionAPI",
-        "resourceVersion": "1739207762746",
-        "creationTimestamp": "2025-02-10T17:16:02Z"
+        "resourceVersion": "1743694017251",
+        "creationTimestamp": "2025-02-10T17:16:02Z",
+        "deletionTimestamp": "2025-04-03T16:43:17Z",
+        "annotations": {
+          "grafana.app/updatedTimestamp": "2025-04-03 15:26:57.2514 +0000 UTC"
+        }
       },
       "spec": {
-        "description": "Enable the alerting conversion API",
-        "stage": "experimental",
+        "description": "Enable the Prometheus to Grafana alerts conversion API",
+        "stage": "preview",
         "codeowner": "@grafana/alerting-squad",
-        "hideFromAdminPage": true,
-        "hideFromDocs": true
+        "expression": "true"
       }
     },
     {

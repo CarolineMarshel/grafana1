@@ -1673,14 +1673,6 @@ var (
 			HideFromDocs:      true,
 		},
 		{
-			Name:              "alertingConversionAPI",
-			Description:       "Enable the alerting conversion API",
-			Stage:             FeatureStageExperimental,
-			Owner:             grafanaAlertingSquad,
-			HideFromAdminPage: true,
-			HideFromDocs:      true,
-		},
-		{
 			Name:         "newLogsPanel",
 			Description:  "Enables the new logs panel in Explore",
 			Stage:        FeatureStageExperimental,
