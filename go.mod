@@ -138,7 +138,7 @@ require (
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // @grafana/grafana-operator-experience-squad
 	github.com/olekukonko/tablewriter v0.0.5 // @grafana/grafana-backend-group
 	github.com/open-feature/go-sdk v1.14.1 // @grafana/grafana-backend-group
-	github.com/open-feature/go-sdk-contrib/providers/go-feature-flag v0.2.3 // @grafana/grafana-backend-group
+	github.com/open-feature/go-sdk-contrib/providers/go-feature-flag v0.2.5 // @grafana/grafana-backend-group
 	github.com/openfga/api/proto v0.0.0-20250127102726-f9709139a369 // @grafana/identity-access-team
 	github.com/openfga/language/pkg/go v0.2.0-beta.2.0.20250121233318-0eae96a39570 // @grafana/identity-access-team
 	github.com/openfga/openfga v1.8.6 // @grafana/identity-access-team
