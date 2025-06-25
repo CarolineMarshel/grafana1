@@ -9,7 +9,7 @@ require (
 	cloud.google.com/go/spanner v1.75.0 // @grafana/grafana-search-and-storage
 	cloud.google.com/go/storage v1.50.0 // @grafana/grafana-backend-group
 	connectrpc.com/connect v1.17.0 // @grafana/observability-traces-and-profiling
-	cuelang.org/go v0.11.1 // @grafana/grafana-as-code
+	cuelang.org/go v0.13.2 // @grafana/grafana-as-code
 	filippo.io/age v1.2.1 // @grafana/identity-access-team
 	github.com/1NCE-GmbH/grpc-go-pool v0.0.0-20231117122434-2a5bb974daa2 // @grafana/grafana-search-and-storage
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible // @grafana/partner-datasources
@@ -182,15 +182,15 @@ require (
 	go.uber.org/goleak v1.3.0 // @grafana/grafana-search-and-storage
 	go.uber.org/zap v1.27.0 // @grafana/identity-access-team
 	gocloud.dev v0.40.0 // @grafana/grafana-app-platform-squad
-	golang.org/x/crypto v0.36.0 // @grafana/grafana-backend-group
+	golang.org/x/crypto v0.37.0 // @grafana/grafana-backend-group
 	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0 // @grafana/alerting-backend
 	golang.org/x/mod v0.24.0 // indirect; @grafana/grafana-backend-group
-	golang.org/x/net v0.37.0 // @grafana/oss-big-tent @grafana/partner-datasources
-	golang.org/x/oauth2 v0.27.0 // @grafana/identity-access-team
-	golang.org/x/sync v0.12.0 // @grafana/alerting-backend
-	golang.org/x/text v0.23.0 // @grafana/grafana-backend-group
+	golang.org/x/net v0.39.0 // @grafana/oss-big-tent @grafana/partner-datasources
+	golang.org/x/oauth2 v0.29.0 // @grafana/identity-access-team
+	golang.org/x/sync v0.13.0 // @grafana/alerting-backend
+	golang.org/x/text v0.24.0 // @grafana/grafana-backend-group
 	golang.org/x/time v0.9.0 // @grafana/grafana-backend-group
-	golang.org/x/tools v0.31.0 // indirect; @grafana/grafana-as-code
+	golang.org/x/tools v0.32.0 // indirect; @grafana/grafana-as-code
 	gonum.org/v1/gonum v0.15.1 // @grafana/oss-big-tent
 	google.golang.org/api v0.220.0 // @grafana/grafana-backend-group
 	google.golang.org/grpc v1.71.0 // @grafana/plugins-platform-backend
@@ -243,7 +243,7 @@ require (
 	cloud.google.com/go/iam v1.3.1 // indirect
 	cloud.google.com/go/longrunning v0.6.4 // indirect
 	cloud.google.com/go/monitoring v1.23.0 // indirect
-	cuelabs.dev/go/oci/ociregistry v0.0.0-20240906074133-82eb438dd565 // indirect
+	cuelabs.dev/go/oci/ociregistry v0.0.0-20250304105642-27e071d2c9b1 // indirect
 	dario.cat/mergo v1.0.1 // indirect
 	github.com/Azure/azure-pipeline-go v0.2.3 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/internal v1.10.0 // indirect
@@ -350,7 +350,7 @@ require (
 	github.com/edsrzf/mmap-go v1.2.0 // indirect
 	github.com/elazarl/goproxy v1.7.2 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
-	github.com/emicklei/proto v1.13.2 // indirect
+	github.com/emicklei/proto v1.14.0 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/envoyproxy/go-control-plane/envoy v1.32.4 // indirect
 	github.com/envoyproxy/protoc-gen-validate v1.2.1 // indirect
@@ -476,11 +476,11 @@ require (
 	github.com/oklog/ulid/v2 v2.1.0 // indirect
 	github.com/open-feature/go-sdk-contrib/providers/ofrep v0.1.5 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
-	github.com/opencontainers/image-spec v1.1.0 // indirect
+	github.com/opencontainers/image-spec v1.1.1 // indirect
 	github.com/opentracing-contrib/go-grpc v0.0.0-20210225150812-73cb765af46e // @grafana/grafana-search-and-storage
 	github.com/opentracing-contrib/go-stdlib v1.0.0 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // @grafana/grafana-search-and-storage
-	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
+	github.com/pelletier/go-toml/v2 v2.2.4 // indirect
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
 	github.com/pires/go-proxyproto v0.7.0 // indirect
@@ -494,7 +494,7 @@ require (
 	github.com/prometheus/exporter-toolkit v0.13.2 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/prometheus/sigv4 v0.1.0 // indirect
-	github.com/protocolbuffers/txtpbfmt v0.0.0-20241112170944-20d2c9ebc01d // indirect
+	github.com/protocolbuffers/txtpbfmt v0.0.0-20250129171521-feedd8250727 // indirect
 	github.com/puzpuzpuz/xsync/v2 v2.5.1 // indirect
 	github.com/redis/rueidis v1.0.53 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
@@ -555,8 +555,8 @@ require (
 	go.uber.org/mock v0.5.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go4.org/netipx v0.0.0-20230125063823-8449b0a6169f // indirect
-	golang.org/x/sys v0.31.0 // indirect
-	golang.org/x/term v0.30.0 // indirect
+	golang.org/x/sys v0.32.0 // indirect
+	golang.org/x/term v0.31.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	gomodules.xyz/jsonpatch/v2 v2.5.0 // indirect
 	google.golang.org/genproto v0.0.0-20250122153221-138b5a5a4fd4 // indirect
